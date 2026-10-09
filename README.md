@@ -15,19 +15,19 @@ O skill também ensina a IA a **não exagerar**: com uma única variante, um `if
 ### Via `npx skills` (recomendado)
 
 ```bash
-npx skills add SEU-USUARIO/evolutionary-design-patterns
+npx skills add EliseuGaspar/evolutionary-design-patterns
 ```
 
 Para ver o que o repositório contém antes de instalar:
 
 ```bash
-npx skills add SEU-USUARIO/evolutionary-design-patterns --list
+npx skills add EliseuGaspar/evolutionary-design-patterns --list
 ```
 
 ### Manual com git
 
 ```bash
-git clone https://github.com/SEU-USUARIO/evolutionary-design-patterns.git
+git clone https://github.com/EliseuGaspar/evolutionary-design-patterns.git
 mkdir -p ~/.claude/skills
 cp -r evolutionary-design-patterns/skills/evolutionary-design-patterns ~/.claude/skills/
 ```
@@ -39,7 +39,7 @@ Para instalar só em um projeto, copie para `.claude/skills/` na raiz dele.
 ```bash
 mkdir -p ~/.claude/skills/evolutionary-design-patterns
 curl -o ~/.claude/skills/evolutionary-design-patterns/SKILL.md \
-  https://raw.githubusercontent.com/SEU-USUARIO/evolutionary-design-patterns/main/skills/evolutionary-design-patterns/SKILL.md
+  https://raw.githubusercontent.com/EliseuGaspar/evolutionary-design-patterns/main/skills/evolutionary-design-patterns/SKILL.md
 ```
 
 > Atenção: o `curl` baixa só o `SKILL.md`. Os arquivos em `references/` (exemplos de cada padrão) não vêm junto. Para a versão completa, use `npx skills` ou `git clone`.
